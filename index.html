@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    <head>
+
+        <title> Bootstrap Pedroforo</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1">
+        <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="estilos.css">
+        <title>formulario</title>
+    </head>
+    <body>
+      <div class="contenedor-formulario">
+        <div class="wrap">
+          <form action="" class="formulario" name="formulario_registro" method="get">
+            <div>
+              <div class="input-group">
+                <input type="text" id="nombre" name="nombre">
+                <label class="label" for="nombre">Nombre:</label>
+              </div>
+              <div class="input-group">
+                <input type="email" id="email" name="email">
+                <label class="label" for="email">Email:</label>
+              </div>
+              <div class="input-group">
+                <input type="password" id="pass" name="pass">
+                <label class="label" for="pass">Contraseña:</label>
+              </div>
+              <div class="input-group">
+                <input type="password" id="pass2" name="pass2">
+                <label class="label" for="pass2">Repetir Contraseña:</label>
+              </div>
+              <div class="input-group radio">
+                <input type="radio" name="sexo" id="hombre" value="Hombre">
+                <label for="hombre">Hombre</label>
+
+                <input type="radio" name="sexo" id="mujer" value="Mujer">
+                <label for="mujer">Mujer</label>
+              </div>
+              <div class="input-group checkbox">
+                <input type="checkbox" name="terminos" id="terminos" value="Terminos">
+                <label for="terminos">Acepto los Terminos</label>
+              </div>
+              <input type="submit" id="btn-submit" value="Enviar">
+            </div>
+          </form>
+        </div>
+
+      </div>
+
+
+    <script src="js/formulario.js"></script>
+    </body>
+</html>
